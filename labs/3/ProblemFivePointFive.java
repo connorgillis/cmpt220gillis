@@ -15,7 +15,7 @@ public class ProblemFivePointFive {
 	            i,
 	            i * 2.2,
 	            pounds,
-	            pounds * 0.4545);
+	            pounds * 0.4545); // JA: The correct conversion is 0.453592 Kilogram
 	            pounds += 5;
 	        } //for loop executes 200 times    
 

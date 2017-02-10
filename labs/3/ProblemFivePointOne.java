@@ -33,6 +33,7 @@ public class ProblemFivePointOne {
 		System.out.println("The number of positives is " + pos);
 		System.out.println("The total is "  + sum);
 		System.out.println("The average is " + (sum / count)); //calculate avg given total (above) and count iterator
+		// JA: This is an integer operation. You need to force it to be double.
 
 
 	}
