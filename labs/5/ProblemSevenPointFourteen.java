@@ -40,7 +40,7 @@ public class ProblemSevenPointFourteen {
     public static int min(int... values) {
         int min = values[0];
         for (int e: values) {
-            if (e < min)
+            if (e < min) // JA: You need to include min (<=)
                 min = e;
         }
         return min;
